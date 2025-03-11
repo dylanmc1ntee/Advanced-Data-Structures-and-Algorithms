@@ -22,7 +22,7 @@ This repository contains my work for **Computer Science 2** at UCF during the **
   - Base case and recursive case handling
   - Generating combinatorial solutions
  
-  ---
+---
 
 **Author:** Dylan McIntee  
 **Course:** CS2 - Spring 2025  
