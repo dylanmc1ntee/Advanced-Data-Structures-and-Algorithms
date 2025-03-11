@@ -15,7 +15,7 @@ This repository contains my work for **Computer Science 2** at UCF during the **
   - Scanner for handling user input
 
 ### 2. ParenthesesCombinations.java
-- **Description:** This program generates all valid combinations of well-formed parentheses for a given number \( n \) using a recursive backtracking approach.
+- **Description:** This program generates all valid combinations of well-formed parentheses for a given number \(n\) using a recursive backtracking approach.
 - **Key Concepts:**
   - Recursion and backtracking
   - StringBuilder for efficient string manipulation
