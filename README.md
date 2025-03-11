@@ -6,7 +6,7 @@ This repository contains my work for **Computer Science 2** at UCF during the **
 
 ## Assignments
 
-### 1. CourseCombinations.java
+### Assignment 1: Course Combinations
 - **Description:** This program reads student names along with their enrolled courses and calculates how many course pairings exist among students who share the same class.
 - **Key Concepts:**
   - HashMaps for efficient data storage and lookup
@@ -14,7 +14,7 @@ This repository contains my work for **Computer Science 2** at UCF during the **
   - Nested loops for comparing student schedules
   - Scanner for handling user input
 
-### 2. ParenthesesCombinations.java
+### Assignment 2: Parentheses Combinations
 - **Description:** This program generates all valid combinations of well-formed parentheses for a given number \(n\) using a recursive backtracking approach.
 - **Key Concepts:**
   - Recursion and backtracking
