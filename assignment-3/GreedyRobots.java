@@ -5,6 +5,8 @@
 import java.io.File;  // Import the File class
 import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
+import java.util.Arrays;
+import java.util.Collections;
 
 public class GreedyRobots {
     
@@ -54,6 +56,23 @@ public class GreedyRobots {
         }
 
         scan2.close();
+
+        Arrays.sort(distanceFromDispatch);
+        reverseList(maxTravelRange);
+
+    }
+
+    private void reverseList(int[] arr){
+
+        for(int i = 0; i < arr.length; i++){
+            arr[i] = arr[i] * -1;
+        }
+
+        Arrays.sort(maxTravelRange);
+
+        for(int i = 0; i < arr.length; i++){
+            arr[i] = arr[i] * -1;
+        }
 
     }
 
