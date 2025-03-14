@@ -69,7 +69,7 @@ def setupchecker():
     # Open Java file to extract student name
     with open("GreedyRobots.java", 'r') as f:
         name = f.readline().strip()
-        name = re.findall("\s(.*)", name)
+        name = re.findall(r"\s(.*)", name)
         name = ''.join([str(item) for item in name])
     
     print(f"The name that will appear in the grader script is {name}.")
