@@ -1,0 +1,11 @@
+Enter input file name: Florida.txt
+
+Selected Connections:
+FAU---FGCU	$180
+FAU---FIU	$220
+FGCU---UWF	$370
+FIU---FSU	$200
+FSU---UF	$160
+UCF---UF	$120
+
+Total Cost: $1250
